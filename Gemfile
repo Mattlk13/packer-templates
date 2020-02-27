@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 group :test do
-  gem 'rainbow'
-  gem 'rake'
+  gem 'rainbow', '>= 2.2.2'
+  gem 'rake', '>= 12.3.3'
   gem 'serverspec'
 end
